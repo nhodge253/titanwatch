@@ -47,7 +47,12 @@ const MainNavigator = createDrawerNavigator(
     Leaders: { screen: LeadersNavigator }
   },
   {
-    drawerBackgroundColor: "#16233F"
+    drawerBackgroundColor: "#4B92DB",
+    contentOptions: {
+      labelStyle: {
+        color: "white"
+      }
+    }
   }
 );
 
