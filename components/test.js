@@ -3,7 +3,7 @@ import { View, Text, Dimensions, ScrollView, StyleSheet } from "react-native";
 import { Image, Card } from "react-native-elements";
 import { LEADERS } from "../shared/leaders";
 import { PROMOTIONS } from "../shared/promotions";
-import { PARTNERS } from "../shared/partners";
+import { PARTNERS } from "../shared/gameday";
 
 const { width, height } = Dimensions.get("window");
 
@@ -70,7 +70,7 @@ import { View, Text, Dimensions, ScrollView, StyleSheet } from "react-native";
 import { Image, Card } from "react-native-elements";
 import { LEADERS } from "../shared/leaders";
 import { PROMOTIONS } from "../shared/promotions";
-import { PARTNERS } from "../shared/partners";
+import { PARTNERS } from "../shared/gameday";
 
 const { width, height } = Dimensions.get("window");
 

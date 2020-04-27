@@ -9,7 +9,7 @@ function RenderLeader({ leader }) {
       // prettier-ignore
       <Card 
             featuredTitle={leader.name} 
-            image={require("./images/tanny.jpg")}>
+            image={require("../assets/images/tanny.jpg")}>
         <Text style={{ margin: 10 }}>
             {leader.description}
         </Text>

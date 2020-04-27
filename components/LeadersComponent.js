@@ -30,7 +30,7 @@ class Leaders extends Component {
           <Text style={{color: '#16233F'}}>{item.description} </Text>
           </View>}
         onPress={() => navigate('LeaderInfo', { leaderId: item.id })}
-        leftAvatar={{ source: require("./images/tanny.jpg") }} />
+        leftAvatar={{ source: require("../assets/images/tanny.jpg") }} />
       );
     };
 
